@@ -1,3 +1,4 @@
+import MainContent from "./mainContent/MainContent";
 import Navigation from "./navbar/Navbar";
 
 export const TOTAL_SCREENS = [
@@ -5,10 +6,10 @@ export const TOTAL_SCREENS = [
     screen_name: "Nav",
     component: Navigation,
   },
-  //   {
-  //     screen_name: "Home",
-  //     component: Hero,
-  //   },
+  {
+    screen_name: "MainContent",
+    component: MainContent,
+  },
   //   {
   //     screen_name: "AboutMe",
   //     component: About,
